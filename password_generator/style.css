@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#4ab3c8, #9bbe19c5) ;
+    
+}
+
+.container {
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 15px 20px rgba(39, 40, 39, 0.8);
+}
+
+.container h1 {
+    margin-block: 8px;
+    font-size: 1.7rem;
+}
+.inputBox{
+    position: relative;
+}
+.inputBox span{
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 2;
+    
+}
+
+.passbox {
+    background-color: #fff;
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 300px;
+    border-radius: 7px;
+    font-size: 18px;
+    text-overflow: ellipsis;
+}
+
+.row {
+    display: flex;
+    margin-block: 8px;
+}
+
+.row p,
+.row label {
+    flex-basis: 100%;
+}
+
+.row input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.gnBtn {
+    border: none;
+    background-color: #2c619c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    margin-block: 8px;
+}
+
+.gnBtn:hover {
+    background-color: #0066ff;
+}
